@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NurseLoginController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4ff1f" height="491.0" stroke="BLACK" strokeType="INSIDE"
+                   width="760.0"/>
+        <Label layoutX="270.0" layoutY="26.0" text="Nurse Section">
+            <font>
+                <Font name="B Bardiya" size="37.0"/>
+            </font>
+        </Label>
+        <Label layoutX="230.0" layoutY="112.0" text="username"/>
+        <TextField fx:id="nurse_username_tf" layoutX="303.0" layoutY="108.0"/>
+        <Label layoutX="231.0" layoutY="161.0" text="password"/>
+        <PasswordField fx:id="nurse_password_tf" layoutX="303.0" layoutY="157.0"/>
+        <Button layoutX="358.0" layoutY="286.0" mnemonicParsing="false" onAction="#onClickLogin" text="Login"/>
+        <Button fx:id="bt" layoutX="360.0" layoutY="369.0" mnemonicParsing="false" onAction="#btn" text="Back"/>
+    </children>
+</AnchorPane>

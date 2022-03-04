@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0"
+            prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.WellcomeStageController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="485.0" stroke="BLACK" strokeType="INSIDE" width="760.0">
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.38757017254829407" green="0.17671053111553192"
+                                       blue="0.40263158082962036"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.22900763358778625">
+                            <color>
+                                <Color red="0.8266885876655579" green="0.09583333134651184" blue="0.9078947305679321"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.5479713479033775">
+                            <color>
+                                <Color red="0.05738304182887077" green="0.4131578803062439" blue="0.3835099935531616"
+                                       opacity="0.3100000023841858"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="0.9667357206344604" blue="0.11999999731779099" opacity="0.75"/>
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="36.0" stroke="BLACK" strokeType="INSIDE" width="760.0">
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.040518540889024734" green="0.036400001496076584"
+                                       blue="0.2800000011920929"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.19083969465648845">
+                            <color>
+                                <Color red="0.03799999877810478" green="0.10000000149011612"
+                                       blue="0.08760000020265579"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.4900763358778625">
+                            <color>
+                                <Color red="0.25" green="0.2370000034570694" blue="0.054999999701976776"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.7763306493778103">
+                            <color>
+                                <Color red="0.33000001311302185" green="0.32147499918937683"
+                                       blue="0.22769999504089355"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.33000001311302185" green="0.32147499918937683"
+                                       blue="0.22769999504089355"/>
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Rectangle>
+        <Button layoutX="724.0" layoutY="5.0" mnemonicParsing="false" onAction="#onClickExit" prefHeight="0.0"
+                prefWidth="0.0" text="x" textAlignment="CENTER"/>
+        <Button fx:id="a_d" alignment="CENTER" layoutX="320.0" layoutY="146.0" mnemonicParsing="false"
+                onAction="#accountingBtn" text="Accounting section"/>
+        <Button alignment="CENTER" layoutX="332.0" layoutY="192.0" mnemonicParsing="false" onAction="#doctorBtn"
+                text="Doctor section"/>
+        <Button alignment="CENTER" layoutX="338.0" layoutY="242.0" mnemonicParsing="false" onAction="#nurseBtn"
+                text="Nurse sectio"/>
+        <Button layoutX="331.0" layoutY="294.0" mnemonicParsing="false" onAction="#patientBtn" text="Patient section"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Accounting_controller">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e5b3" height="486.0" stroke="#1dffb7" strokeType="INSIDE"
+                   width="780.0"/>
+        <Label layoutX="34.0" layoutY="30.0" text="National code"/>
+        <TextField fx:id="national_code_tf" layoutX="120.0" layoutY="26.0"/>
+        <Label layoutX="376.0" layoutY="30.0" text="Full name"/>
+        <TextField fx:id="full_name_tf" layoutX="450.0" layoutY="26.0"/>
+        <Label layoutX="57.0" layoutY="106.0" text="Age"/>
+        <TextField fx:id="age_tf" layoutX="119.0" layoutY="102.0"/>
+        <Label layoutX="388.0" layoutY="106.0" text="Gender"/>
+        <TextField fx:id="gender_tf" layoutX="450.0" layoutY="102.0"/>
+        <Label layoutX="125.0" layoutY="208.0" text="Description of the disease"/>
+        <TextField fx:id="disease_tf" alignment="TOP_LEFT" layoutX="41.0" layoutY="242.0" prefHeight="138.0"
+                   prefWidth="313.0"/>
+        <Label layoutX="500.0" layoutY="208.0" text="Records of specific diseases"/>
+        <TextField fx:id="specific_diseases_tf" alignment="TOP_LEFT" layoutX="416.0" layoutY="242.0" prefHeight="138.0"
+                   prefWidth="314.0"/>
+        <Button layoutX="340.0" layoutY="427.0" mnemonicParsing="false" onAction="#onClickOk" text="ok"/>
+        <Button fx:id="bt" layoutX="403.0" layoutY="427.0" mnemonicParsing="false" onAction="#onClickCancel"
+                text="cancel"/>
+    </children>
+</AnchorPane>

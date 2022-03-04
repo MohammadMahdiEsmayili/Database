@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DoctorOpinionController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0698cf" height="492.0" layoutY="-2.0" stroke="#0080ff"
+                   strokeType="INSIDE" width="760.0"/>
+        <Label layoutX="120.0" layoutY="33.0" text="What is the disease?"/>
+        <TextField fx:id="disease_tf" alignment="TOP_LEFT" layoutX="40.0" layoutY="78.0" prefHeight="122.0"
+                   prefWidth="256.0"/>
+        <Label layoutX="502.0" layoutY="33.0" text="Date of surgery"/>
+        <TextField fx:id="date" layoutX="468.0" layoutY="98.0"/>
+        <Label layoutX="128.0" layoutY="260.0" text="Surgical details"/>
+        <TextField fx:id="Surgical_details_tf" alignment="TOP_LEFT" layoutX="46.0" layoutY="306.0" prefHeight="122.0"
+                   prefWidth="256.0"/>
+        <Label layoutX="471.0" layoutY="260.0" text="Patient status after surgery"/>
+        <TextField fx:id="Patient_status_tf" alignment="TOP_LEFT" layoutX="414.0" layoutY="306.0" prefHeight="122.0"
+                   prefWidth="256.0"/>
+        <Button layoutX="354.0" layoutY="446.0" mnemonicParsing="false" onAction="#onClickOkBtn" text="ok"/>
+    </children>
+</AnchorPane>

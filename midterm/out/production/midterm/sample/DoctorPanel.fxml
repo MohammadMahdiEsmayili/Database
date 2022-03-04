@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DoctorPanelController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#159258" height="486.0" stroke="#09a44f" strokeType="INSIDE"
+                   width="760.0"/>
+        <Label layoutX="89.0" layoutY="65.0" text="patient name"/>
+        <ListView fx:id="name_list" layoutX="24.0" layoutY="101.0" prefHeight="200.0" prefWidth="200.0"/>
+        <Label layoutX="291.0" layoutY="65.0" text="patient national code"/>
+        <ListView fx:id="national_code_list" layoutX="247.0" layoutY="101.0" prefHeight="200.0" prefWidth="200.0"/>
+        <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="452.0" layoutY="126.0" prefHeight="26.0"
+               prefWidth="303.0" text="Enter the national code of the patient you intend to treat"/>
+        <TextField fx:id="patient_national_code_tf" layoutX="530.0" layoutY="181.0"/>
+        <Button layoutX="590.0" layoutY="254.0" mnemonicParsing="false" onAction="#onClickOkBtn" text="ok"/>
+        <Button layoutX="383.0" layoutY="437.0" mnemonicParsing="false" onAction="#onClickBackBtn" text="Back"/>
+    </children>
+</AnchorPane>

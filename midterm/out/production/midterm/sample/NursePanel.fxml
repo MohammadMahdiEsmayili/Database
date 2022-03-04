@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NursePanelController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bb00ff" height="492.0" stroke="#de07ff" strokeType="INSIDE"
+                   width="760.0"/>
+        <Label layoutX="87.0" layoutY="50.0" text="patient name"/>
+        <ListView fx:id="name_list" layoutX="22.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0"/>
+        <Label layoutX="284.0" layoutY="50.0" text="patient national code"/>
+        <ListView fx:id="national_code_list" layoutX="240.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0"/>
+        <Label layoutX="445.0" layoutY="114.0" text="Enter the national code of the patient you intend to treat"/>
+        <TextField fx:id="patient_national_code_tf" layoutX="521.0" layoutY="172.0"/>
+        <Button layoutX="580.0" layoutY="285.0" mnemonicParsing="false" onAction="#onClickOkBtn" text="ok"/>
+        <Button layoutX="360.0" layoutY="445.0" mnemonicParsing="false" onAction="#onClickBackBtn" text="Back"/>
+    </children>
+</AnchorPane>
